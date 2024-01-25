@@ -1,0 +1,897 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    gap: 39px;
+    justify-content: center;
+    padding-top: 11px;
+    align-items: center;
+}
+
+.about img {
+    width: 16px;
+    height: 15px;
+}
+  
+.about a {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+
+.box_about {
+    background-color: rgb(241, 241, 241);
+    height: 70px;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.box_text {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+.box_text p {
+    font-size: 12px;
+}
+
+.box_text2 {
+    display: flex;
+    align-items: center;
+}
+
+.box_text3 {
+    display: flex;
+    align-items: center;
+}
+
+.box_text4 {
+    display: flex;
+    align-items: center;
+}
+
+.box_text1 h1 {
+    font-size: 17px;
+}
+
+.box_text1 a {
+    text-decoration: none;
+    color: rgb(34, 34, 255);
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: #000000;
+    font-size: 28px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    padding: 8px;
+}
+
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 1s;
+}
+
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover span {
+    padding-right: 25px;
+}
+
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.iphone_right a {
+    text-decoration: none;
+    font-size: 9px;
+    color: black;
+}
+
+.iphone {
+    padding-top: 80px;
+    display: flex;
+}
+
+.iphone_left p span {
+    color: rgb(196, 127, 0);
+    font-size: 20px;
+}
+
+.iphone_left h6 {
+    font-size: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.iphone_left h2 {
+    font-size: 12px;
+}
+
+.iphone_left {
+    padding-right: 255px;
+}
+
+.iphone_right {
+    padding-left: 255px;
+}
+
+.model {
+    justify-content: space-around;
+    display: flex;
+    padding: 70px;
+}
+
+.model_iphone {
+    background-image: url(./img/All\ iphone.jpg);
+    height: 500px;
+    width: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+    position: sticky;
+    top: 40px;
+
+}
+
+
+.black {
+    background-image: url(./img/black\ titanium.jpg);
+    height: 500px;
+    width: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+}
+
+.blue {
+    background-image: url(./img/blue\ titanium.jpg);
+    height: 500px;
+    width: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+}
+
+.natural {
+    background-image: url(./img/natural\ titanium.jpg);
+    height: 500px;
+    width: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+}
+
+.white {
+    background-image: url(./img/white\ titanium.jpg);
+    height: 500px;
+    width: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+}
+
+.model_about {
+    padding-left: 200px;
+}
+.model_btn1
+
+.model_text h1 {
+    font-size: 23px;
+}
+
+.model_text h1 span {
+    font-size: 23px;
+    color: gray;
+}
+
+.model_btn1 {
+    background-color: white;
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(98, 98, 98);
+    display: flex;
+    justify-content: space-between;
+}
+
+.model_btn2 {
+    background-color: white;
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(98, 98, 98);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.model_buttons {
+
+    text-align: center;
+    padding-top: 20px;
+}
+
+.model_btn1 h1 {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 13px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.model_btn2 h1 {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 13px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.model_btn1 p {
+    color: rgb(71, 71, 71);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-right: 8px;
+}
+
+.model_btn2 p {
+    color: rgb(71, 71, 71);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-right: 8px;
+}
+
+.text h1 span {
+    font-size: 23px;
+    color: gray;
+}
+
+.text h1 {
+    font-size: 23px;
+}
+
+.text {
+    padding-top: 20px;
+}
+
+h5 {
+    font-size: 17px;
+    padding-top: 20px;
+    padding-right: 92px;
+}
+
+.color_natural {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(234, 250, 168);
+    border: none;
+    border-radius: 50%;
+    box-shadow: inset 5px 5px 10px rgba(89, 89, 89, 0.5);
+}
+
+.color_blue {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(10, 0, 124);
+    border: none;
+    border-radius: 50%;
+    box-shadow: inset 5px 5px 10px rgba(89, 89, 89, 0.5);
+}
+
+.color_white {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(223, 223, 223);
+    border: none;
+    border-radius: 50%;
+    box-shadow: inset 5px 5px 10px rgba(89, 89, 89, 0.5);
+}
+
+.color_black {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(26, 26, 26);
+    border: none;
+    border-radius: 50%;
+    box-shadow: inset 5px 5px 10px rgba(89, 89, 89, 0.5);
+}
+
+.colors {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 45px;
+}
+
+
+.model {
+    height: 1000px;
+}
+.pamayt{
+    padding-top: 90px;
+}
+.pamayt_text h1{
+    font-size: 23px;
+    text-align: start;
+    
+}
+.pamayt_text h1 span{
+    color: gray;
+}
+.butt {
+    padding-top: 50px;
+}
+.bcss1{
+    background-color: white;
+    width: 330px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(98, 98, 98);
+    display: flex;
+    justify-content: space-between;
+}
+.bcss2{
+    background-color: white;
+    width: 330px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(98, 98, 98);
+    display: flex;
+    justify-content: space-between;
+}
+.bcss3{
+    background-color: white;
+    width: 330px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(98, 98, 98);
+    display: flex;
+    justify-content: space-between;
+}
+.bcss4{
+    background-color: white;
+    width: 330px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(98, 98, 98);
+    display: flex;
+    justify-content: space-between;
+}
+.bcss1 p {
+    padding-top: 10px;
+    font-size: 10px;
+    padding-right: 15px;
+}
+.bcss1 h1 {
+    font-size: 17px;
+    padding-top: 18px;
+    padding-left: 15px;
+}
+.bcss2 p {
+    padding-top: 10px;
+    font-size: 10px;
+    padding-right: 15px;
+}
+.bcss2 h1 {
+    font-size: 17px;
+    padding-top: 18px;
+    padding-left: 15px;
+}
+.bcss3 p {
+    padding-top: 10px;
+    font-size: 10px;
+    padding-right: 15px;
+}
+.bcss3 h1 {
+    font-size: 17px;
+    padding-top: 18px;
+    padding-left: 15px;
+}
+.bcss4 p {
+    padding-top: 10px;
+    font-size: 10px;
+    padding-right: 15px;
+}
+.bcss4 h1 {
+    font-size: 17px;
+    padding-top: 18px;
+    padding-left: 15px;
+}
+.tr_text h1{
+    font-size: 22px;
+}
+.tr_text h1 span{
+    font-size: 22px;
+    color: gray;
+}
+.trading{
+    padding-top: 20px;
+    
+}
+.tr_buttons button{
+border-radius: 10px;
+border: 1px solid;
+background-color: white;
+width: 350px;
+height: 100px;
+}
+.tr_buttons{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+}
+.tr_buttons h1{
+    font-size: 18px;
+}
+.tr_buttons h1 span{
+    font-size: 14px;
+    color: gray;
+}
+.trading{
+    padding-top: 450px;
+    padding-left: 30px;
+    
+}
+.bod{
+    padding-top: 250px;
+    text-align: center;
+}
+.cls{
+    background-color: rgb(202, 202, 202);
+    width: 950px;
+    height: 400px;
+    display: flex;
+}
+.boxes_text{
+    padding-top: 50px;
+}
+.boxes_text h1{
+    padding-bottom: 50px;
+}
+.iphoness{
+    background-image: url(./img/black\ f.jpg);
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cabel{
+    background-image: url(./img/cabel.jpg);
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hight{
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Common styles for all devices */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about img {
+    width: 16px;
+    height: 15px;
+}
+
+.about a {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+
+/* Additional styles for larger screens */
+@media (min-width: 768px) {
+    .about {
+        gap: 39px;
+    }
+
+    .box_about {
+        width: 800px;
+    }
+
+    .iphone {
+        padding-top: 80px;
+        display: flex;
+    }
+
+    .iphone_left {
+        padding-right: 255px;
+    }
+
+    .iphone_right {
+        padding-left: 255px;
+    }
+
+    .model {
+        padding: 70px;
+    }
+
+    .model_about {
+        padding-left: 200px;
+    }
+
+    .pamayt {
+        padding-top: 90px;
+    }
+}
+
+/* Styles for smaller screens, like mobile phones */
+@media (max-width: 767px) {
+    .about {
+        gap: 10px;
+    }
+
+    .box_about {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .iphone,
+    .model {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .iphone_left,
+    .iphone_right {
+        padding: 0;
+        text-align: center;
+    }
+
+    .iphone_left,
+    .iphone_right,
+    .model,
+    .model_about,
+    .trading {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .model_iphone,
+    .black,
+    .blue,
+    .natural,
+    .white {
+        width: 100%;
+        height: 300px; /* Adjust height as needed */
+    }
+
+    .model_about {
+        padding-left: 0;
+    }
+
+    .pamayt {
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg_modal{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    height: 350%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.dialog{
+    width: fit-content;
+    background-color: white;
+    height: 2050px;
+    width: 870px;
+    border-radius: 30px;
+    
+}
+.buttons1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 48px;
+}
+
+
+.buttons1 button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.text1 h1{
+    padding-top: 45px;
+    font-size: 37px;
+    padding-bottom: 15px;
+}
+.text1{
+    text-align: center;
+}
+.text1 P{
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+.text1 a{
+    text-decoration: none;
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sims1{
+    background-image: url(./img/AT&T\ 1.png);
+    width: 75px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sims11 {
+    background-image: url(./img/AT&T\ 2.png);
+    width: 75px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sims2{
+    background-image: url(./img/tmobile\ 1.png);
+    width: 75px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sims22{
+    background-image: url(./img/tmobile\ 2.png);
+
+}
+.sims3{
+    background-image: url(./img/verizon\ 1.png);
+    width: 75px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sims33{
+    background-image: url(./img/verizon\ 2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+button.close {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+border: none;
+background-color: rgb(226, 226, 226);
+font-size: 27px;
+}
+.btnsd{
+    padding-left: 27px;
+    padding-top: 30px;
+}
+.close h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.inp{
+    text-align: center;
+    padding-top: 60px;
+}
+.inp input{
+    width: 550px;
+    height: 60px;
+}
+.inp h1{
+    font-size: 25px;
+    padding-bottom: 55px;
+    padding-top: 30px;
+}
+.floot {
+    height: 1200px;
+    width: auto;
+    background-color: rgb(222, 222, 222);
+    padding: 70px;
+    font-family: 'Afacad', sans-serif;
+    font-family: 'Merienda', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.pro{
+padding-left: 50px;
+padding-right: 50px;
+}
+.max{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.pro img{
+    width: 34px;
+    height: 38px;
+}
+.max img{
+    width: 34px;
+    height: 38px;
+}
+.pro{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.max{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.pro h1{
+    font-size: 40px;
+}
+.max h1{
+    font-size: 40px;
+}
+.flootText p{
+    font-size: 18px;
+    padding-top: 80px;
+ 
+}
+.select_iphone {
+    width: 250px;
+    height: 40px;
+}
+.cost{
+    display: none;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.cost1 h1{
+    font-size: 22px;
+}
+.cost5{
+    display: none;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.cost6 h1{
+    font-size: 22px;
+}
+
